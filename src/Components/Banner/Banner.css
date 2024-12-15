@@ -1,0 +1,8 @@
+.background{
+    padding-top: 2rem;
+    background:linear-gradient(rgba(0, 0, 0, 0), rgba(8, 114, 186, 0.5)), url('../../assets/Images/Banner.jpg');
+    background-size: cover;
+     background-position: center;
+     height: 700px;
+     
+}
