@@ -1,6 +1,7 @@
 
 import './App.css'
 import Banner from './Components/Banner/Banner'
+import Member from './Components/Member'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <>
       
      <Banner></Banner>
+     <Member></Member>
 
    
       

@@ -1,4 +1,7 @@
 import logo from '../../assets/Images/Logo.png'
+import img1 from '../../assets/Images/World-bro 1.png'
+import img2 from '../../assets/Images/True friends.jpg'
+import img3 from '../../assets/ImageS/Traveling-bro 1.jpg'
 import './Banner.css'
 const Banner = () => {
     return (
@@ -6,11 +9,12 @@ const Banner = () => {
             <div className='w-11/12 mx-auto'>
 
 
-
+              {/* Navbar section */}
                 <div className='flex flex-row justify-between items-center  px-5 h-20 rounded-xl bg-[#F4F4F433] backdrop-blur-sm'>
                     <img src={logo} className='w-28' alt="" />
                     <button className='btn bg-white px-8 py-1 text-[#0872BA] font-semibold'>Login</button>
                 </div>
+              {/* Title and form section */}
 
                 <div className='flex flex-row justify-between mt-20'>
                     <div className='mt-10 space-y-4'>
@@ -72,9 +76,9 @@ const Banner = () => {
                             />
                         </div>
 
-                        <div className="text-sm text-white">
+                        <div className="text-sm text-white text-center">
                             You are already a member{" "}
-                            <a href="#" className="font-medium text-blue-600 hover:underline">
+                            <a className="font-medium text-white underline">
                                 log in
                             </a>
                         </div>
@@ -83,6 +87,26 @@ const Banner = () => {
                             Sign up
                         </button>
                     </div>
+                </div>
+
+            {/* Statistic and Ads section */}
+                <div className='bg-white flex flex-row justify-around gap-5 mt-6 rounded-lg shadow-2xl'>
+                    <div className='mt-4'>
+                        <img src={img1} alt="" />
+                        <p className='font-semibold text-2xl'>150+ Countries</p>
+                        <p className='text-[#475467]'>Empowering women to <br /> explore destinations globally.</p>
+                    </div>
+                    <div className='mt-4'>
+                        <img src={img2} alt="" />
+                        <p className='font-semibold text-2xl'>Connect & Travel</p>
+                        <p className='text-[#475467]'>A trusted community of <br /> verified members.</p>
+                    </div>
+                    <div className='mt-4'>
+                        <img src={img3} alt="" />
+                        <p className='font-semibold text-2xl'>Find Your Tribe</p>
+                        <p className='text-[#475467]'>Find like-minded housemates <br /> faster and easier.</p>
+                    </div>
+
                 </div>
 
 
