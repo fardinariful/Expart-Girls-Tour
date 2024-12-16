@@ -1,7 +1,7 @@
 import logo from '../../assets/Images/Logo.png'
 import img1 from '../../assets/Images/World-bro 1.png'
 import img2 from '../../assets/Images/True friends.jpg'
-import img3 from '../../assets/ImageS/Traveling-bro 1.jpg'
+import img3 from '../../assets/Images/Traveling-bro 1.jpg'
 
 import './Banner.css'
 const Banner = () => {
