@@ -33,13 +33,14 @@ const Reviews = () => {
                 {/* Right Section */}
                 <div className="w-full  lg:w-[60%] relative flex flex-col  justify-center items-center lg:items-start">
                     {/* Navigation Buttons */}
-                    <div className='absolute bottom-24 lg:bottom-52 lg:right-4 space-x-4'>
+                    <div className='hidden lg:absolute lg:bottom-52 lg:right-4 lg:flex space-x-4'>
                         <button className='border px-4 rounded-lg'><img src={left} alt="" /></button>
                         <button className='border px-4 rounded-lg'><img src={right} alt="" /></button>
                     </div>
+
                     {/* Quote Image and Content */}
                     <div className="relative w-full flex flex-col items-center lg:items-start">
-                        <img src={qua} alt="Quote" className="w-8 h-8 lg:w-10 lg:h-10 mr-96 " />
+                        <img src={qua} alt="Quote" className="w-8 h-8 lg:w-10 lg:h-10 mr-28 " />
                         <p className="text-base lg:text-2xl text-center lg:text-left">
                             Our smart developers build innovative, efficient,<br />
                             and high-performance solutions. efficient, and <br />
