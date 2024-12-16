@@ -2,6 +2,7 @@ import logo from '../../assets/Images/Logo.png'
 import img1 from '../../assets/Images/World-bro 1.png'
 import img2 from '../../assets/Images/True friends.jpg'
 import img3 from '../../assets/ImageS/Traveling-bro 1.jpg'
+import img4 from '../../assets/Images/Rectangle 13.png'
 import './Banner.css'
 const Banner = () => {
     return (
@@ -20,9 +21,12 @@ const Banner = () => {
                     <div className='mt-10 space-y-4'>
                         <p className='font-bold text-6xl text-white'>The Premier <br />
                             Co-living Travel <br /> Network for Women</p>
-                            
-                        <p className='text-white font-bold'> Find your perfect housemate,<br />
+                          <div className='flex items-center gap-3'>
+                          <span><img src={img4} alt="" /></span>
+                          <p className='text-white font-bold '> Find your perfect housemate,<br />
                             move faster, stay longer, and travel with confidence.</p>
+                            </div>  
+                        
                     </div>
 
                     <div className="w-full max-w-md p-8 space-y-4 bg-[#38383833] rounded-lg shadow-md backdrop-blur-sm">
@@ -91,7 +95,7 @@ const Banner = () => {
                 </div>
 
             {/* Statistic and Ads section */}
-                <div className='bg-white flex flex-row justify-around gap-5 mt-6 rounded-lg shadow-2xl'>
+                <div className='bg-white flex flex-row justify-around gap-5 mt-6 rounded-lg shadow-2xl pb-8'>
                     <div className='mt-4'>
                         <img src={img1} alt="" />
                         <p className='font-semibold text-2xl'>150+ Countries</p>

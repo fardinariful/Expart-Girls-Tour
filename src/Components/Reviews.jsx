@@ -5,7 +5,7 @@ import right from '../assets/Images/arrow-right (1).png'
 
 const Reviews = () => {
     return (
-        <div className="w-11/12 mx-auto mb-20">
+        <div className="w-11/12 mx-auto mb-20 space-y-4">
             <div className='flex flex-col justify-center items-center space-y-4 mt-32'>
                 <button className="btn bg-[#0872BA4D] text-[#000000] -rotate-12">Testimonial</button>
                 <p className="font-semibold text-5xl">What Our Members Say</p>
