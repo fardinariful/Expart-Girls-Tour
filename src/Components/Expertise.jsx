@@ -6,42 +6,43 @@ import IMAGE4 from '../assets/Images/Frame 37 (3).png'
 const Expertise = () => {
     return (
         <div className='mt-28'>
-            <div className='flex flex-col justify-center items-center space-y-4'>
-                <button className="btn bg-[#0872BA4D] text-[#000000] -rotate-12">Why Choose us</button>
-                <p className="font-semibold text-5xl">Why Choose Expat Global Girls</p>
-                <p className="text-xl font-medium text-[#344054]">Empowering women to travel with confidence and ease worldwide</p>
+            <div className="flex flex-col justify-center items-center space-y-4 px-4 md:px-8 lg:px-16 text-center">
+                <button className="btn bg-[#0872BA4D] text-[#000000] -rotate-12 px-6 py-2 text-sm md:text-base lg:text-lg">
+                    Why Choose Us
+                </button>
+                <p className="font-semibold text-3xl md:text-4xl lg:text-5xl">
+                    Why Choose Expat Global Girls
+                </p>
+                <p className="text-base md:text-lg lg:text-xl font-medium text-[#344054]">
+                    Empowering women to travel with confidence and ease worldwide
+                </p>
             </div>
+
 
             <div>
                 <div className="relative flex flex-col items-center justify-center min-h-screen ">
                     {/* Center Logo */}
-                    <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="lg:absolute inset-0 flex items-center justify-center">
                         <img
                             src={logo}
                             alt="Logo"
-                            className="w-40 h-40"
+                            className="w-80 lg:w-40 h-60 lg:h-40"
                         />
                     </div>
                     {/* Grid Layout for Cards */}
-                    <div className="relative w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-28 p-6 z-24">
+                    <div className="relative w-full max-w-6xl grid grid-cols-1 gap-16 lg:grid-cols-2 lg:gap-28 p-6 z-24">
                         {/* Card 1 */}
-                        <div className="flex flex-col items-start px-20 py-9  rounded-br-[60px]  border border-[#0872BA33]">
+                        <div className="flex flex-col items-start px-20 py-9 rounded-br-[60px]  border border-[#0872BA33] ">
                             <div className="flex items-center justify-center w-12 h-12 mb-4 bg-white">
                                 <img src={IMAGE1} alt="" />
                             </div>
                             <h3 className="text-lg font-semibold text-gray-800">Affordable Housing</h3>
                             <p className="mt-2 text-sm text-gray-600">
-                            Save money and travel smarter by sharing <br /> accommodations with fellow members.
+                                Save money and travel smarter by sharing <br /> accommodations with fellow members.
                             </p>
 
 
                         </div>
-
-
-
-
-
-
 
                         {/* Card 2 */}
                         <div className="flex flex-col items-start px-20 py-9  rounded-bl-[60px]  border border-[#0872BA33]">

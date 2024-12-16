@@ -7,8 +7,8 @@ const Footer = () => {
     return (
         <div>
            
-            <div className="footer bg-white text-base-content p-16 mt-28 relative">
-                <div className="flex flex-row justify-center items-center gap-48">
+            <div className="footer bg-white text-base-content p-8 sm:p-16 mt-28 relative">
+                <div className="flex flex-col justify-start gap-10 lg:flex-row lg:justify-center lg:items-center lg:gap-48">
                     <div>
                         <img src={IMG} className="w-36 h-32" alt="" />
                         <p className="text-[#475467] font-medium">
@@ -26,7 +26,6 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-
                     <div className="flex flex-col gap-3">
                         <h6 className="footer-title text-[#1D2939]">Quick Link</h6>
                         <a className="text-[#344054]">Home</a>
@@ -39,10 +38,10 @@ const Footer = () => {
                         <p className="text-[#344054]">deanna.curtis@example.com</p>
                     </div>
                 </div>
-                <hr className="border-t border-gray-300 w-20 mr-3" />
-                <div className="absolute bottom-4 right-4 flex items-center">
-                   
-                    <p className="text-[#344054]">&copy; {new Date().getFullYear()} Turning Hearts. All rights reserved.</p>
+                
+                <div className="absolute text-right bottom-1 left-5 lg:bottom-4 lg:right-4 flex flex-col items-end">
+                <hr className="border-b  border-[#D0D5DD] w-full mr-3" />
+                    <p className="text-[#344054] ">&copy; {new Date().getFullYear()} Turning Hearts. All rights reserved.</p>
                 </div>
             </div>
 

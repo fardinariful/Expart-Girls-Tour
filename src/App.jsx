@@ -14,16 +14,16 @@ function App() {
  
 
   return (
-    <div className='bg-base-200'>
+    <div className='bg-gray-200'>
       
      <Banner></Banner>
-     <Member></Member>
+      <Member></Member>
      <Package></Package>
      <Expertise></Expertise>
      <HowWork></HowWork>
      <Reviews></Reviews>
      <FAQ></FAQ>
-     <Footer></Footer>
+     <Footer></Footer> 
 
    
     </div>

@@ -3,11 +3,11 @@ import arrows from '../assets/Images/Vector.png'
 import rac from '../assets/Images/Rectangle 14.png'
 const Member = () => {
     return (
-        <div className='mt-52  flex flex-row justify-between items-center w-11/12 mx-auto gap-6'>
-            <div className='w-1/2 '>
-                <img src={frame} alt="" />
+        <div className='mt-[850px] lg:mt-52  flex flex-col lg:flex-row justify-between items-center w-11/12 mx-auto gap-6'>
+            <div className='w-full lg:w-1/2 lg:p-0'>
+                <img className='w-full' src={frame} alt="" />
             </div>
-            <div className='w-1/2 space-y-10 '>
+            <div className='w-full pl-8 lg:w-1/2 space-y-10 '>
                 <img src={rac} alt="" />
                 <p className='text-5xl font-semibold'>Your Community for <br /> Women Ready to Go <br /> Abroad</p>
                 <p className='text-[#344054]'>We’re thrilled you found us! At Expat Global Girls, we <br /> empower women to pursue their dreams abroad. Our <br /> platform connects women seeking housemates for <br /> international moves and trips, offering a safe, supportive <br /> community and a searchable directory to help you find the <br /> perfect living companion. Join us to make your move abroad <br /> affordable, achievable, and filled with support!</p>
