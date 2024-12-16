@@ -12,7 +12,7 @@ const Banner = () => {
 
               {/* Navbar section */}
                 <div className='flex flex-row justify-between items-center  px-5 h-20 rounded-xl bg-[#F4F4F433] backdrop-blur-sm'>
-                    <img src={logo} className='w-28' alt="" />
+                    <img src={logo} className='w-20 lg:w-28' alt="" />
                     <button className='btn bg-white px-8 py-1 text-[#0872BA] font-semibold'>Login</button>
                 </div>
               {/* Title and form section */}

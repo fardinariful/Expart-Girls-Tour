@@ -19,58 +19,64 @@ const Expertise = () => {
                         <img
                             src={logo}
                             alt="Logo"
-                            className="w-24 h-24  "
+                            className="w-40 h-40"
                         />
                     </div>
                     {/* Grid Layout for Cards */}
                     <div className="relative w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-28 p-6 z-24">
                         {/* Card 1 */}
-                        <div className="relative flex flex-col items-start p-6   rounded-br-[60px] border border-[#0872BA33] ">
+                        <div className="flex flex-col items-start px-20 py-9  rounded-br-[60px]  border border-[#0872BA33]">
                             <div className="flex items-center justify-center w-12 h-12 mb-4 bg-white">
                                 <img src={IMAGE1} alt="" />
                             </div>
                             <h3 className="text-lg font-semibold text-gray-800">Affordable Housing</h3>
                             <p className="mt-2 text-sm text-gray-600">
-                                Save money and travel smarter by sharing accommodations with fellow members.
+                            Save money and travel smarter by sharing <br /> accommodations with fellow members.
                             </p>
+
 
                         </div>
 
+
+
+
+
+
+
                         {/* Card 2 */}
-                        <div className="flex flex-col items-start p-6  rounded-bl-[60px]  border border-[#0872BA33]">
+                        <div className="flex flex-col items-start px-20 py-9  rounded-bl-[60px]  border border-[#0872BA33]">
                             <div className="flex items-center justify-center w-12 h-12 mb-4 bg-white">
                                 <img src={IMAGE2} alt="" />
                             </div>
                             <h3 className="text-lg font-semibold text-gray-800">Flexible Options</h3>
                             <p className="mt-2 text-sm text-gray-600">
-                                From memberships to travel & lifestyle preferences—you have the power to choose.
+                                From memberships to travel & lifestyle <br /> preferences—you have the power to choose.
                             </p>
 
 
                         </div>
 
                         {/* Card 3 */}
-                        <div className=" flex flex-col items-start p-6  rounded-tr-[60px]  border border-[#0872BA33]">
+                        <div className=" flex flex-col items-start px-20 py-9  rounded-tr-[60px]  border border-[#0872BA33]">
                             <div className="flex items-center justify-center w-12 h-12 mb-4 bg-white">
                                 <img src={IMAGE3} alt="" />
                             </div>
                             <h3 className="text-lg font-semibold text-gray-800">Verified Profiles</h3>
                             <p className="mt-2 text-sm text-gray-600">
-                                A reliable community with verified profiles for added safety and peace of mind.
+                                A reliable community with verified profiles <br /> for added safety and peace of mind.
                             </p>
 
                         </div>
 
                         {/* Card 4 */}
-                        <div className=" flex flex-col items-start p-6  rounded-tl-[60px]   border border-[#0872BA33]">
+                        <div className=" flex flex-col items-start px-20 py-9 rounded-tl-[60px]   border border-[#0872BA33]">
                             <div className="flex items-center justify-center w-12 h-12 mb-4 bg-white">
                                 <img src={IMAGE4} alt="" />
                             </div>
                             <h3 className="text-lg font-semibold text-gray-800">Women-Only Spaces</h3>
                             <p className="mt-2 text-sm text-gray-600">
-                                Safe, supportive spaces for women to connect and thrive period.
+                                Safe, supportive spaces for women to <br /> connect and thrive period.
                             </p>
-
                         </div>
                     </div>
                 </div>
