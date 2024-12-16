@@ -40,7 +40,7 @@ const Reviews = () => {
 
                     {/* Quote Image and Content */}
                     <div className="relative w-full flex flex-col items-center lg:items-start">
-                        <img src={qua} alt="Quote" className="w-8 h-8 lg:w-10 lg:h-10 mr-28 " />
+                        <img src={qua} alt="Quote" className="w-8 h-8 lg:w-10 lg:h-10 mr-40 " />
                         <p className="text-base lg:text-2xl text-center lg:text-left">
                             Our smart developers build innovative, efficient,<br />
                             and high-performance solutions. efficient, and <br />
