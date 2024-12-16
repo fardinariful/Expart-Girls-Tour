@@ -42,9 +42,9 @@ const Reviews = () => {
                     <div className="relative w-full flex flex-col items-center lg:items-start">
                         <img src={qua} alt="Quote" className="w-8 h-8 lg:w-10 lg:h-10 mr-52 " />
                         <p className="text-base lg:text-2xl text-center lg:text-left">
-                            Our smart developers build innovative,efficient,<br />
-                            and high-performance solutions,efficient,and <br />
-                            high-performance solutions.efficient, and high-<br />
+                            Our smart developers build innovative,efficient,
+                            and high-performance solutions,efficient,and 
+                            high-performance solutions.efficient, and high
                             performance solutions.
                             <span className="absolute bottom-0 -right-2 lg:-bottom-4 lg:right-28">
                                 <img src={qua} alt="Quote" className="w-8 h-8 lg:w-10 lg:h-10" />
