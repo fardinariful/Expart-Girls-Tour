@@ -18,8 +18,8 @@ const HowWork = () => {
                         <div>
                             <p className="font-semibold text-2xl text-center lg:text-left">Plan Your Trip</p>
                             <p className="text-[#475467] text-center lg:text-left">
-                                Start by setting your travel dates, destinations, and <br />
-                                preferences. This helps you tailor your search for <br />
+                                Start by setting your travel dates, destinations, and 
+                                preferences. This helps you tailor your search for
                                 housemates who align with your journey.
                             </p>
                             <div className="flex items-center justify-center lg:justify-start mt-4">
@@ -30,9 +30,9 @@ const HowWork = () => {
                         <div>
                             <p className="font-semibold text-2xl text-center lg:text-left">Connect and Build Relationships</p>
                             <p className="text-[#475467] text-center lg:text-left">
-                                Send messages, ask questions, and get to know potential <br />
-                                housemates before committing. Building rapport ensures <br />
-                                a comfortable and trusted connection for your shared <br />
+                                Send messages, ask questions, and get to know potential 
+                                housemates before committing. Building rapport ensures 
+                                a comfortable and trusted connection for your shared
                                 journey.
                             </p>
                             <div className="flex items-center justify-center lg:justify-start mt-4">
@@ -80,8 +80,8 @@ const HowWork = () => {
                             </div>
                             <p className="font-semibold text-2xl text-center lg:text-left">Explore Matching Profiles</p>
                             <p className="text-[#475467] text-center lg:text-left">
-                                Browse through profiles of like-minded women who <br />
-                                are traveling to similar locations. You can filter results <br />
+                                Browse through profiles of like-minded women who 
+                                are traveling to similar locations. You can filter results
                                 based on your travel dates, needs, and values.
                             </p>
                         </div>
@@ -92,9 +92,9 @@ const HowWork = () => {
                             </div>
                             <p className="font-semibold text-2xl text-center lg:text-left">Secure Your Plans & Enjoy the Journey</p>
                             <p className="text-[#475467] text-center lg:text-left">
-                                Once you’ve found the right housemate, finalize your <br />
-                                arrangements with confidence. With a trusted <br />
-                                companion, you can travel with peace of mind and <br />
+                                Once you’ve found the right housemate, finalize your 
+                                arrangements with confidence. With a trusted 
+                                companion, you can travel with peace of mind and 
                                 enjoy every moment.
                             </p>
                         </div>
