@@ -13,7 +13,7 @@ const Expertise = () => {
             </div>
 
             <div>
-                <div className="relative flex flex-col items-center justify-center min-h-screen bg-gray-100">
+                <div className="relative flex flex-col items-center justify-center min-h-screen ">
                     {/* Center Logo */}
                     <div className="absolute inset-0 flex items-center justify-center">
                         <img
@@ -22,11 +22,10 @@ const Expertise = () => {
                             className="w-24 h-24  "
                         />
                     </div>
-
                     {/* Grid Layout for Cards */}
-                    <div className="relative w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-28 p-6 z-10">
+                    <div className="relative w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-28 p-6 z-24">
                         {/* Card 1 */}
-                        <div className="relative flex flex-col items-start p-6  rounded-e-lg border border-[#0872BA33] ">
+                        <div className="relative flex flex-col items-start p-6   rounded-br-[60px] border border-[#0872BA33] ">
                             <div className="flex items-center justify-center w-12 h-12 mb-4 bg-white">
                                 <img src={IMAGE1} alt="" />
                             </div>
@@ -38,7 +37,7 @@ const Expertise = () => {
                         </div>
 
                         {/* Card 2 */}
-                        <div className="flex flex-col items-start p-6  rounded-lg  border border-[#0872BA33]">
+                        <div className="flex flex-col items-start p-6  rounded-bl-[60px]  border border-[#0872BA33]">
                             <div className="flex items-center justify-center w-12 h-12 mb-4 bg-white">
                                 <img src={IMAGE2} alt="" />
                             </div>
@@ -51,7 +50,7 @@ const Expertise = () => {
                         </div>
 
                         {/* Card 3 */}
-                        <div className=" flex flex-col items-start p-6  rounded-lg  border border-[#0872BA33]">
+                        <div className=" flex flex-col items-start p-6  rounded-tr-[60px]  border border-[#0872BA33]">
                             <div className="flex items-center justify-center w-12 h-12 mb-4 bg-white">
                                 <img src={IMAGE3} alt="" />
                             </div>
@@ -63,7 +62,7 @@ const Expertise = () => {
                         </div>
 
                         {/* Card 4 */}
-                        <div className=" flex flex-col items-start p-6  rounded-lg ROUND  border border-[#0872BA33]">
+                        <div className=" flex flex-col items-start p-6  rounded-tl-[60px]   border border-[#0872BA33]">
                             <div className="flex items-center justify-center w-12 h-12 mb-4 bg-white">
                                 <img src={IMAGE4} alt="" />
                             </div>

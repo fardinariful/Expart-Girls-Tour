@@ -20,6 +20,7 @@ const Banner = () => {
                     <div className='mt-10 space-y-4'>
                         <p className='font-bold text-6xl text-white'>The Premier <br />
                             Co-living Travel <br /> Network for Women</p>
+                            <hr className="border-t border-gray-300 w-20 mr-3" />
                         <p className='text-white font-bold'>Find your perfect housemate,<br />
                             move faster, stay longer, and travel with confidence.</p>
                     </div>

@@ -7,6 +7,7 @@ import Footer from './Components/Footer'
 import HowWork from './Components/HowWork'
 import Member from './Components/Member'
 import Package from './Components/Package'
+import Reviews from './Components/Reviews'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
      <Package></Package>
      <Expertise></Expertise>
      <HowWork></HowWork>
+     <Reviews></Reviews>
      <FAQ></FAQ>
      <Footer></Footer>
 
