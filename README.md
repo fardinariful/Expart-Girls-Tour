@@ -20,6 +20,7 @@ This is a React application designed as a landing page for a co-living travel ne
 - React
 - HTML
 - Raw CSS
+- JS
 - Tailwind CSS
 - VS Code for development
 - Git Bash or terminal for running the application.
