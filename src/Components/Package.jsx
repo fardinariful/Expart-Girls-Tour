@@ -7,7 +7,7 @@ const Package = () => {
                 <img src={rac} alt="" />
             </div>
             <div>
-                <p className="text-center text-5xl font-bold">Perfect for every type of traveler</p>
+                <p className="text-center text-4xl lg:text-5xl font-bold">Perfect for every type of traveler</p>
             </div>
 
             <div className='px-3 py-2 mt-5'>

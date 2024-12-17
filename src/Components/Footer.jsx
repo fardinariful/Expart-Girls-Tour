@@ -41,7 +41,7 @@ const Footer = () => {
                 
                 <div className="absolute text-right bottom-1 left-5 lg:bottom-4 lg:right-4 flex flex-col items-end">
                 <hr className="border-b  border-[#D0D5DD] w-full mr-3" />
-                    <p className="text-[#344054] ">&copy; {new Date().getFullYear()} Turning Hearts. All rights reserved.</p>
+                    <p className="text-[#344054] ">&copy; [{new Date().getFullYear()}] Ash and Fire. All rights reserved.</p>
                 </div>
             </div>
 

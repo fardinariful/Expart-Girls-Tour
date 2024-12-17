@@ -7,7 +7,7 @@ const HowWork = () => {
         <div className='bg-white py-8'>
 
             <div className="flex flex-col justify-center items-center ">
-                <p className="text-5xl font-bold text-center">How It Works</p>
+                <p className="text-4xl lg:text-5xl font-bold text-center">How It Works</p>
                 <p className="text-[#344054] text-center">Search and find other travelers <br /> heading to the same destination.</p>
             </div>
 

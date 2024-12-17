@@ -4,7 +4,7 @@ const FAQ = () => {
     return (
         <div className="w-11/12 mx-auto space-y-3">
             <div className="flex flex-col justify-center items-center space-y-4">
-                <p className="text-5xl font-bold">FAQs</p>
+                <p className="text-4xl lg:text-5xl font-bold">FAQs</p>
                 <p className="text-center">If you have any questions that aren’t listed below, please send your question to: <span className="underline">info@ExpatGlobalGirls.com</span> </p>
             </div>
             <div className="space-y-4">

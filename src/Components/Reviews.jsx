@@ -8,7 +8,7 @@ const Reviews = () => {
         <div className="w-11/12 mx-auto mb-20 space-y-4">
             <div className='flex flex-col justify-center items-center space-y-4 mt-32'>
                 <button className="btn bg-[#0872BA4D] text-[#000000] -rotate-12">Testimonial</button>
-                <p className="font-semibold text-5xl text-center">What Our Members Say</p>
+                <p className="font-semibold text-3xl lg:text-5xl text-center">What Our Members Say</p>
                 <p className="text-xl font-medium text-[#344054] text-center">Hear from women who share your passion for exploring new cultures, experiencing life abroad, and <br /> making the most of every opportunity.</p>
             </div>
             <div className="bg-white h-auto lg:h-[272px] flex flex-col lg:flex-row gap-6 lg:gap-10 p-4 lg:p-0">

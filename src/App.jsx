@@ -14,7 +14,7 @@ function App() {
  
 
   return (
-    <div className='bg-gray-200'>
+    <div className='bg-gray-200 montserrat'>
       
      <Banner></Banner>
       <Member></Member>
