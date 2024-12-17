@@ -10,7 +10,7 @@ Currently, two official plugins are available:
 
 
 
-##Project Overview:
+## Project Overview:
 This is a React application designed as a landing page for a co-living travel network for women. It highlights features, benefits, and a user-friendly workflow for the target audience.
 ## Features
 - Responsive design
