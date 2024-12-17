@@ -19,7 +19,7 @@ This is a React application designed as a landing page for a co-living travel ne
 - Git Bash or terminal for running the application.
 
 ## Deployment
-You can view the live application here: 
+You can view the live application here: https://expart-girls-tour-2e3f.vercel.app/
 ## GitHub Repository
 Find the source code here: [Expart-Girls-Tour GitHub Repository](https://github.com/fardinariful/Expart-Girls-Tour)
 
